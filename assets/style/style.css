@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    transition: .7s;
+    text-decoration: none;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FAFDF2;
+}
+header {
+    background-color: #1A3129;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header_nav {
+    display: flex;
+    gap: 15px;
+}
+.header_nav a {
+    color: white;
+    font-size: 18px ;
+}
+
+
+/* banner */
+
+.banner_section {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0;
+    align-items: center;
+}
+
+.banner_title h1 {
+    text-align: center;
+    color: black;
+    font-size: 48px ;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.banner_title h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 200px;
+}
+
+.banner_text {
+    margin-top: 80px;
+    border: 1px solid #EEF8D3;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.banner_text p {
+    color: black;
+    font-size: 18px;
+    padding: 40px;
+    font-weight: 500px;
+}
+
+.banner_img {
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    background-color: #F6FBE9;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+}
+
+.arrows {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.arrows img {
+    background-color: #F6FBE9;
+    border: 1px solid #EEF8D3;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.arrows button {
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    background-color: #356554;
+    border: none;
+}
+
+/* katalog */
+
+.katalog_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 300px;
+}
+
+.kat_title h2 {
+    text-align: center;
+    color: black;
+    font-size: 48px ;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.kat_title h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 200px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.kat_filter {
+    border: 1px solid #DCF1A7;
+    padding: 10px;
+    border-radius: 8px ;
+}
+
+.kat_filter .act_btn {
+    background-color: #234338;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 10px 24px;
+    border: none;
+}
+
+.kat_filter button  {
+    color: #4C4C4C;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 24px;
+    border: none;
+    background-color: transparent;
+}
+
+.katalog_section h4 {
+    color: #4c4c4d;
+    font-size: 18px;
+    margin-top: 14px ;
+    margin-bottom: 50px;
+}
+
+.kat_items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.kat_item {
+    background-color:#F6FBE9;
+    padding: 50px;
+    border: 1px solid #EEF8D3;
+    border-radius: 12px;
+}
+
+.kat_item h2 {
+    
+}
